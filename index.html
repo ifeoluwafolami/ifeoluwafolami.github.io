@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HIF</title>
+        
+        <!-- Google Icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+
+        <!-- My Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    
+    <body>
+        <header id="header">
+            <nav id="nav-bar">
+                <!-- Responsive Navbar Menu -->
+                <input type="checkbox" id="check">
+                <label class="checkbtn" for="check">
+                    <span class="material-symbols-outlined menu">
+                        menu
+                    </span>
+                </label>
+                
+                <!-- Logo Image & Text -->
+                <div class="logo-container">
+                    <img src="images/logo.png" id="header-img" class="logo">
+                    <p class="logo-text">HIF CODING STORE</p>
+                </div>
+                
+                <!-- Navigation Menu -->
+                <ul class="nav__list">
+                    <li class="nav__list-item"><a href="#section-a" class="active nav-link">Home</a></li>
+                    <li class="nav__list-item"><a href="#section-b" class="nav-link">About</a></li>
+                    <li class="nav__list-item"><a href="#section-c" class="nav-link">Testimonial</a></li>
+                    <li class="nav__list-item"><a href="#section-d" class="nav-link">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="section a" id="section-a">
+                <div class="one-of-two">
+                    <p class="stand-out">Welcome to the beginning of your career.</p>
+                    <h1>Let's find the right <span>course</span> for you!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio praesent libero.</p>
+
+                    <div class="btn-group">
+                        <button class="btn btn-regular">Register</button>
+                        <button class="btn btn-outline pv">
+                            <img src="images/play-button.svg" class="play-icon play-icon-default" alt="">
+                            <img src="images/play-button-inverted.svg" class="play-icon play-icon-hover" alt="">
+                            Play Video
+                        </button>
+                    </div>
+                </div>
+                <div class="two-of-two">
+                    <img src="images/sect-a-picture.svg" alt="">
+                </div>    
+            </section>
+
+            <section class="section b" id="section-b">
+                <div class="one-of-two">
+                    <p class="stand-out">What we give</p>
+                    <h2>What do you get from us?</h2>
+                    <p class="o-o-t-p">Sed cursus ante dapibus diam. Sed nisi curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
+                </div>
+                <div class="sect-b-3col two-of-two">
+                    <div class="sect-b-3col-square">
+                        <div class="icon-container">
+                            <span class="material-symbols-outlined">
+                            person
+                        </span>
+                        </div>
+                        <h3>Professional Teacher</h3>
+                        <p>Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa.</p>
+                    </div>
+                    <div class="sect-b-3col-square">
+                        <div class="icon-container">
+                            <span class="material-symbols-outlined">
+                            school
+                        </span>
+                        </div>
+                        <h3>Course Certificate</h3>
+                        <p>Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa.</p>
+                    </div>
+                    <div class="sect-b-3col-square last">
+                        <div class="icon-container">
+                            <span class="material-symbols-outlined">
+                            workspace_premium
+                        </span>
+                        </div>
+                        <h3>Interesting Learning</h3>
+                        <p>Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section c" id="section-c">
+                <div class="two-of-two">
+                    <p class="stand-out">What people think</p>
+                <h2>What past students have to say about us!</h2>
+                <p class="o-o-t-p">Sed cursus ante dapibus diam. Sed nisi curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
+                </div>
+                <div class="one-of-two">
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/qOnv-EMbw08?si=htwOdAl2eUgRzmZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section class="section d" id="section-d">
+                <div class="one-of-two">
+                    <p class="stand-out">Feedback</p>
+                    <h2>We'd Love To Hear From You.</h2>
+                    <p class="o-o-t-p">Sed cursus ante dapibus diam. Sed nisi curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
+                </div>
+                <div class="two-of-two">
+                    <form action="https://www.freecodecamp.com/email-submit" target="_blank" method="post" id="form" class="form">
+                        
+                        <fieldset class="f1">
+                            <legend>Important Stuff!</legend>
+                            <h4>Tell Us About You!</h4>
+                            <div class="together">
+                                <label for="firstName"></h4>First Name:</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            
+                            <div class="together">
+                                <label for="lastName">Last Name:</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                            </div>
+
+                            <div class="together">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required placeholder="janedoe5894@gmail.com">
+                            </div>                            
+
+                            <div class="together">
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="f2">
+                            <legend>Feedback!</legend>
+                            <h4>How Did You Hear About Us?</h4>
+
+                            <div class="together">
+                                <input type="radio" name="howdidyouhear" id="friend/relative" value="friend/relative">
+                                <label for="friend/relative">Friend/Relative</label>
+                            </div>
+                            
+                            <div class="together">
+                                <input type="radio" name="howdidyouhear" id="social-media" value="social-media">
+                                <label for="social-media">Social Media</label>
+                            </div>
+
+                            <div class="together">
+                                <input type="radio" name="howdidyouhear" id="google-search" value="google-search">
+                                <label for="google-search">Google Search</label>
+                            </div>
+    
+                        </fieldset>
+                        <div class="button-container">
+                            <button class="btn-regular">Submit</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div>
+                <p class="top">&copy; 2024, HIF Coding Store</p>
+                <p class="bottom">All Rights Reserved.</p>
+            </div>
+            
+        </footer>
+    </body>
+</html>
